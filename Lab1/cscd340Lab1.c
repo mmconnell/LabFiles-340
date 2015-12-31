@@ -1,3 +1,15 @@
+/**
+ * @file cscd340Lab1.c
+ * @author Stu Steiner
+ * @date 29 Dec 2015
+ * @brief The file that contains main
+ *
+ * The file that contains main is meant to
+ * test your generic linked class using a basic
+ * set of functions.
+ *
+ * @note This file will never be changed
+ */
 #include "./utils/myUtils.h"
 #include "./utils/fileUtil.h"
 #include "./linkedlist/listUtils.h"
@@ -48,6 +60,6 @@ int main()
 
    printf("Program Ended\n");
 
-	return 0;
+   return 0;
 
 }// end main

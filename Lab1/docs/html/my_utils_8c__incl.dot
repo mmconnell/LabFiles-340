@@ -1,0 +1,14 @@
+digraph "/home/ssteiner/Documents/GitHub/EWU-CSCD340-W16/Solutions/Lab1/utils/myUtils.c"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/ssteiner/Documents\l/GitHub/EWU-CSCD340-W16\l/Solutions/Lab1/utils/myUtils.c",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="myUtils.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$my_utils_8h.html",tooltip="The basic myUtils.h that will be used during the quarter. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="stdio.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="stdlib.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

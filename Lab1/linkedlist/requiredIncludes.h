@@ -1,8 +1,14 @@
-/*
- * requiredIncludes.h
+/**
+ * @file requiredIncludes.h
+ * @author Stu Steiner
+ * @date 29 Dec 2015
+ * @brief The includes for the specific types that will be required
+ * by the linked list.
  *
- *  Created on: Dec 29, 2015
- *      Author: ssteiner
+ * The purpose of this file is to contain the includes for the specific
+ * types.  This file will not contain prototypes.
+ *
+ * @note This file will be changed depending on the specific types
  */
 
 #ifndef REQUIREDINCLUDES_H

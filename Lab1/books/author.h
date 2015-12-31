@@ -19,6 +19,8 @@
  *
  * The name data structure contains a char pointer for the first and last name.
  * It is presumed there will be a single first name and a single last name.
+ *
+ * @note I prefer named structures and then the typedef after the structure
  */
 struct name
 {
@@ -34,6 +36,8 @@ typedef struct name Name;
  * The author data structur contains a name pointer for an array of names. 
  * It is presumed no author will have more than a single first name and 
  * a single last name.  
+ *
+ * @note I prefer named structures and then the typedef after the structure
  */
 struct author
 {

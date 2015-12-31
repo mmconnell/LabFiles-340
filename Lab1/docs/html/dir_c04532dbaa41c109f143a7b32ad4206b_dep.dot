@@ -1,0 +1,9 @@
+digraph "/home/ssteiner/Documents/GitHub/EWU-CSCD340-W16/Solutions/Lab1/linkedlist" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  dir_c04532dbaa41c109f143a7b32ad4206b [shape=box, label="linkedlist", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_c04532dbaa41c109f143a7b32ad4206b.html"];
+  dir_09aee09edd42d8afba8a63b3bab7d03d [shape=box label="books" URL="dir_09aee09edd42d8afba8a63b3bab7d03d.html"];
+  dir_09aee09edd42d8afba8a63b3bab7d03d->dir_c04532dbaa41c109f143a7b32ad4206b [headlabel="1", labeldistance=1.5 headhref="dir_000000_000001.html"];
+  dir_c04532dbaa41c109f143a7b32ad4206b->dir_09aee09edd42d8afba8a63b3bab7d03d [headlabel="3", labeldistance=1.5 headhref="dir_000001_000000.html"];
+}

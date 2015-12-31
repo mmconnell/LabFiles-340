@@ -42,8 +42,8 @@ FILE * openInputFile_Prompt();
  * @param linesPerRecord - Representing the number of lines in the file that make up a record
  * @return int - Representing the number of records in the file
  *
- * @warning - The passed in FILE * fin is not checked
- * @warning - The passed in int linesPerRecord is not checked
+ * @warning - The passed in FILE * fin is checked - exit(-99) if NULL
+ * @warning - The passed in int linesPerRecord is checked - exit(-99) if <= 0
  * @warning - If count is 0 the program is ended with a -99 status
  */
 int countRecords(FILE * fin, int linesPerRecord);
@@ -59,8 +59,8 @@ int countRecords(FILE * fin, int linesPerRecord);
  * @param fin - The FILE * representing the open file
  * @return int - Representing the number of records in the file
  * 
- * @warning - The passed in FILE * fin is not checked
- * @warning - The number of records read from the file is not checked
+ * @warning - The passed in FILE * fin is checked - exit(-99) if NULL
+ * @warning - The number of records read from the file is checked - exit(-99) if <= 0
  */
 int readTotal(FILE * fin);
 

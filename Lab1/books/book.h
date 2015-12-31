@@ -1,8 +1,11 @@
-/*
- * book.h
+/**
+ * @file book.h
+ * @author Stu Steiner
+ * @date 29 Dec 2015
+ * @brief The book data structure
  *
- *  Created on: Dec 29, 2015
- *      Author: ssteiner
+ * The book data structure.  A book contains a title, isbn,
+ * number of pages, and array of authors, and a publisher.
  */
 
 #ifndef BOOK_H_
@@ -15,7 +18,13 @@
 #include "author.h"
 #include "publisher.h"
 
-
+/**
+ * @brief The book data structure.
+ *
+ * A book contains a title, isbn, number of pages, and array of authors, and a publisher.
+ *
+ * @note I prefer named structures and then the typedef after the structure
+ */
 struct book
 {
    char * title;
