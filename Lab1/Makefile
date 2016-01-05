@@ -8,8 +8,8 @@ UTILS= ./utils/myUtils_64.o ./utils/fileUtil_64.o
 lab1:	./books/books.o ./linkedlist/linkedList.o ./linkedlist/listUtils.o 
 	gcc -o lab1 cscd340Lab1.c ./books/books.o ./linkedlist/linkedList.o ./linkedlist/listUtils.o ${UTILS}
 
-books.o:	author.h book.h publisher.h books.c
-	gcc -c ./books/book.c
+books.o:	./books/author.h ./books/book.h ./books/publisher.h ./books/books.c
+	gcc -c ./books/books.c
 
 linkedList.o:	./linkedlist/linkedList.h ./linkedlist/linkedList.c ./linkedlist/genericData.h ./linkedlist/requiredIncludes.h
 	gcc -c ./linkedlist/linkedList.c
